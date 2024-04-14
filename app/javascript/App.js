@@ -5,8 +5,6 @@ import {
   Route
 } from 'react-router-dom'
 import Splash from './pages/Splash';
-import './application.css'
-
 
 const App = () => (
   <Router>

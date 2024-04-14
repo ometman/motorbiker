@@ -1,4 +1,4 @@
-header.splash {
+h1.splash {
   height: 20vh;
   font-size: 18px;
   display: flex;
@@ -14,7 +14,7 @@ main.splash {
   background-color: #fff;
 }
 
-.home-action-btns {
+.splash-action-btns {
   gap: 5vh;
   display: flex;
   justify-content: center;
@@ -24,8 +24,8 @@ main.splash {
   padding: 1%;
 }
 
-a.home-signup-btn,
-a.home-login-btn {
+.signup-btn,
+.login-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,14 +36,14 @@ a.home-login-btn {
   width: 80%;
 }
 
-a.home-signup-btn:hover,
-a.home-login-btn:hover {
+.signup-btn:hover,
+.login-btn:hover {
   background-color: #3778c2;
   color: #fff;
 }
 
-.home-signup-btn,
-.home-login-btn {
+.signup-btn,
+.login-btn {
   background-color: #f3f3f3;
   border: none;
   height: 12vh;
@@ -82,7 +82,7 @@ p.welcome {
   border: none;
 }
 
-img.logo-class {
+.splash-logo {
   width: 140px;
   height: 160px;
 }
